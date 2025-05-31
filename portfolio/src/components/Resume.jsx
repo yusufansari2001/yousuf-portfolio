@@ -45,16 +45,7 @@ const Resume = () => {
           <div className="flex justify-between items-center mb-4">
             <h3 className="text-xl font-bold text-white">Resume</h3>
             <div className="flex gap-2">
-              <button
-                onClick={() => window.open(resumePdfPath, '_blank')}
-                className="md:hidden px-3 py-1.5 bg-gray-700 rounded-lg font-medium hover:bg-gray-600 transition-colors text-sm flex items-center"
-              >
-                <svg className="w-4 h-4 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                </svg>
-                Full Screen
-              </button>
+              
               <button
                 onClick={handleDownload}
                 className="px-4 py-2 bg-gradient-to-r from-blue-500 to-teal-500 rounded-lg font-medium hover:opacity-90 transition-opacity flex items-center space-x-2 text-sm"
